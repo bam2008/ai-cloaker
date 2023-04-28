@@ -9,7 +9,7 @@ However, this becomes very tedious for content longer than a couple of sentences
 
 ## Tutorial
 
-1. Create a Google Apps Script in your google drive.
+1. Create a Google Apps Script in your Google Drive.
 
 2. Copy and paste the following code into your script.
 
