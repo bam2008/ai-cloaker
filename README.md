@@ -48,4 +48,4 @@ function addHiddenPeriods() {
 
 6. **That's it!** Once you give permissions to the script as prompted when you click run for the first time, the script will run and do its thing.
 
-**Note**: if you don't want the blue underlines to show, turn off grammar suggestions.
+**Note**: if you don't want the blue underlines to show in the Google doc, turn off grammar suggestions.
