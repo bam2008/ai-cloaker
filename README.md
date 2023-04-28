@@ -13,7 +13,7 @@ However, this becomes very tedious for content longer than a couple of sentences
 
 2. Copy and paste the following code into your script.
 
-```javascript (google script is basically just old javascript)
+```javascript
 function addHiddenPeriods() {
   var docId = "1LtKtlb9oCUYxqwXcUJoRjVHdNsxSJ-kxeu05FwfE_Bw";
   var doc = DocumentApp.openById(docId);
