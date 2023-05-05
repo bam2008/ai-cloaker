@@ -48,10 +48,8 @@ function addHiddenPeriods() {
 
 ![Run Button](./assets/run.png)
 
-6. **That's it!** Once you give permissions to the script as prompted when you click run for the first time, the script will run and do its thing. Now if you want to do it to another document, you only have to repeat steps 3-5. If you get the following message then it worked. If you didn't and you got a warning, just try it again.
-
-![Success](./assets/success.png)
+6. **That's it!** Once you give permissions to the script as prompted when you click run for the first time, the script will run and do its thing. Now if you want to do it to another document, you only have to repeat steps 3-5.
 
 **Note**: if you don't want the blue underlines to show in the Google doc, hover over them and click ignore.
 
-![Grammar][./assets/grammar.png]
+![Grammar](./assets/grammar.png)
