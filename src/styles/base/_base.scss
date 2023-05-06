@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-family: $font;
+}
+::-webkit-scrollbar {
+    width: 17.5px;
+    border: 1px solid $secondary;
+    &-thumb {
+        background-color: $accent;
+        border-radius: 7px;
+    }
+}
+body {
+    background-color: $primary;
+}
