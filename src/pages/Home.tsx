@@ -43,7 +43,7 @@ const Home: React.FC = () => {
                 spellCheck={false}
             />
             <div className="actions">
-                <button onClick={decloak}>Decloak</button>
+                <button onClick={decloak}>Uncloak</button>
                 <button onClick={cloak}>Cloak</button>
                 <button onClick={copy}>Copy</button>
             </div>
