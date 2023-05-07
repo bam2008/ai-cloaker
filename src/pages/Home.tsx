@@ -39,7 +39,7 @@ const Home: React.FC = () => {
                 AI Cloaker
             </div>
             <textarea
-                placeholder="Insert text you want to make undetectable here"
+                placeholder="Insert text you want to make undetectable here..."
                 value={text}
                 onChange={handleChange}
                 spellCheck={false}
