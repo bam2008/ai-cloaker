@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+const hiddenChar = '\u034F';
+
 const Home: React.FC = () => {
     const [text, setText] = useState("");
     const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
@@ -9,11 +11,11 @@ const Home: React.FC = () => {
         let chars = text.split('');
         let temp = [];
         for (let i = 0; i < chars.length; i++) {
-            if (chars[i] !== '\u034F') {
+            if (chars[i] !== hiddenChar) {
                 temp.push(chars[i]);
             }
             if (Math.random() < 0.05) {
-                temp.push('\u034F');
+                temp.push(hiddenChar);
             }
         }
         setText(temp.join(''));
@@ -22,7 +24,7 @@ const Home: React.FC = () => {
         let chars = text.split('');
         let temp = [];
         for (let i = 0; i < chars.length; i++) {
-            if (chars[i] !== '\u034F') {
+            if (chars[i] !== hiddenChar) {
                 temp.push(chars[i]);
             }
         }
